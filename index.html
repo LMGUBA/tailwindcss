@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href=estilos.css">
+  <title>LUIS GUERE</title>
+
+</head>
+<body class="bg-cover bg-center" style="background-image: url('7.jpg');">
+
+  <nav class="p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-white font-bold text-xl">Luis Guere</div>
+      <div class="hidden md:flex space-x-4">
+        <a href="#" class="text-white">Inicio</a>
+        <a href="#servicio" class="text-white">Servicios</a>
+        <a href="#acerca-de" class="text-white">Acerca de</a>
+        <a href="#contacto" class="text-white">Contacto</a>
+      </div>
+      <div class="md:hidden">
+        <button id="menu-toggle" class="text-white">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="mobile-menu" class="md:hidden hidden bg-color p-4">
+    <a href="#" class="block text-white mb-2">Inicio</a>
+    <a href="#servicio" class="block text-white mb-2">Servicios</a>
+    <a href="#acerca-de" class="block text-white mb-2">Acerca de</a>
+    <a href="#contacto" class="block text-white mb-2">Contacto</a>
+  </div>
+  <section class="container mx-auto p-8">
+    <div class="flex flex-col md:flex-row">
+      <!-- División con la Foto -->
+      <div class="md:w-1/2">
+        <img src="luis12.png" alt="Foto" class="w-90 h-90 rounded-full border-10 border-black">
+      </div>
+
+      <!-- División con la Descripción -->
+      <div class="md:w-1/2 mt-4 md:mt-0 md:ml-4 flex flex-col items-center">
+        
+          <!-- División con la Descripción -->
+        
+              <!-- Agregar un contenedor para el texto que aparecerá y desaparecerá -->
+              <div id="typed-text" class="text-5xl font-bold mb-4 text-white mt-4"></div>
+          
+      
+        <p class=" text-1xl text-white italic ">Soy egresado de SENATI en Ingeniería de Software con inteligencia artificial y estudiante de Ingeniería Mecatrónica en la Universidad Continental de Huancayo, Perú. También poseo estudios en Ciencias Ambientales en la Universidad Nacional de Ucayali. Mi enfoque se centra en la intersección de la Ingeniería de Software, la Inteligencia Artificial y la Ingeniería Mecatrónica. He participado en proyectos colaborativos de Internet de las Cosas aplicados a la Ingeniería Ambiental, consolidando habilidades técnicas y la capacidad para abordar problemas ambientales mediante soluciones innovadoras. Mi objetivo es desarrollar soluciones tecnológicas que impacten positivamente en el entorno, explorando las sinergias entre distintas disciplinas.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="servicio" class="container mx-auto p-8">
+    <h2 class="text-3xl font-bold mb-4 text-white text-center">Tecnologías que manejo</h2>
+
+    <div class="flex flex-wrap justify-center">
+        <!-- Tarjeta Python -->
+        <div class="m-4 bg-gray-700 p-6 rounded-md text-white flex md:flex-row flex-col items-center">
+            <img src="python.png" alt="Python" class="w-16 h-16 mb-4 md:mb-0 md:mr-4">
+            <div>
+                <h3 class="text-xl font-bold mb-2">Python</h3>
+                <p>Creo y perfecciono modelos de aprendizaje automático diseñados específicamente para abordar desafíos en la industria, utilizando avanzadas técnicas de Machine Learning. Mi enfoque se centra en desarrollar soluciones personalizadas que optimizan procesos, mejoran la eficiencia operativa y permiten la toma de decisiones informada en el ámbito industrial.</p>
+            </div>
+        </div>
+
+        <!-- Tarjeta PHP -->
+        <div class="m-4 bg-gray-700 p-6 rounded-md text-white flex md:flex-row flex-col items-center">
+            <img src="php.png" alt="PHP" class="w-16 h-16 mb-4 md:mb-0 md:mr-4">
+            <div>
+                <h3 class="text-xl font-bold mb-2">PHP</h3>
+                <p>Me especializo en el desarrollo de sistemas utilizando el robusto framework Laravel. Diseño y construyo aplicaciones web personalizadas que aprovechan las características y la estructura de Laravel para garantizar un rendimiento eficiente, mantenibilidad y seguridad. Mi enfoque se centra en crear soluciones sólidas y escalables que cumplen con los requisitos específicos de cada proyecto, ofreciendo así experiencias de usuario fluidas y funcionales.</p>
+            </div>
+        </div>
+
+        <!-- Puedes agregar más tarjetas para otras tecnologías aquí -->
+    </div>
+</section>
+
+
+<section id="acerca-de" class="container mx-auto p-8">
+  <h2 class="text-3xl font-bold mb-4 text-white text-center">Acerca de mi</h2>
+
+  <div class="flex flex-wrap justify-center">
+      <!-- Tarjeta Python -->
+      <div class="m-4 bg-gray-700 p-6 rounded-md text-white flex md:flex-row flex-col items-center">
+          <img src="luis10.png" alt="Python" class="w-20 h-20 mb-4 md:mb-0 md:mr-4 rounded-full">
+          <div>
+              <h3 class="text-xl font-bold mb-2">LUIS MIGUEL GUERE BALVIN</h3>
+              <p>Soy egresado de SENATI en Ingeniería de Software con inteligencia artificial y estudiante de Ingeniería Mecatrónica en la Universidad Continental de Huancayo, Perú. También poseo estudios en Ciencias Ambientales en la Universidad Nacional de Ucayali. Mi enfoque se centra en la intersección de la Ingeniería de Software, la Inteligencia Artificial y la Ingeniería Mecatrónica. He participado en proyectos colaborativos de Internet de las Cosas aplicados a la Ingeniería Ambiental, consolidando habilidades técnicas y la capacidad para abordar problemas ambientales mediante soluciones innovadoras. Mi objetivo es desarrollar soluciones tecnológicas que impacten positivamente en el entorno, explorando las sinergias entre distintas disciplinas.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="contacto" class="max-w-md mx-auto p-8">
+  <h2 class="text-3xl font-bold mb-4 text-white text-center">Contacto</h2>
+  <div class="bg-gray-900 text-white p-8 rounded-md shadow-md">
+    <form id="form">
+      <div class="mb-4">
+        <label for="from_name" class="block text-gray-200 text-sm font-bold mb-2">Ingrese su nombre</label>
+        <input type="text" name="from_name" id="from_name" class="w-full p-2 border border-gray-300 rounded-md text-black">
+      </div>
+      <div class="mb-4">
+        <label for="to_name" class="block text-gray-200 text-sm font-bold mb-2">ingrese el nombre del desarrollador de software</label>
+        <input type="text" name="to_name" id="to_name" class="w-full p-2 border border-gray-300 rounded-md text-black">
+      </div>
+      <div class="mb-6">
+        <label for="message" class="block text-gray-200 text-sm font-bold mb-2">ingrese el mensaje</label>
+        <textarea name="message" id="message" class="w-full p-2 border border-gray-300 rounded-md resize-y text-black"></textarea>
+      </div>
+      <div class="mb-4">
+        <label for="email_id" class="block text-gray-200 text-sm font-bold mb-2">ingrese su email</label>
+        <input type="text" name="email_id" id="email_id" class="w-full p-2 border border-gray-300 rounded-md text-black">
+      </div>
+  
+      <input type="submit" id="button" value="Send Email" class="bg-blue-500 text-white p-2 rounded-md cursor-pointer">
+    </form>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Otras secciones existentes ... -->
+<!-- Footer con redes sociales -->
+<footer class="bg-gray-800 text-white p-4">
+  <div class="container mx-auto flex justify-between items-center">
+      <p>Sígueme en mis redes sociales:</p>
+      <div class="flex space-x-4">
+          <!-- Enlaces a tus redes sociales (sustituye "#" con tus enlaces reales) -->
+          <a href="#" class="text-white">Facebook</a>
+          <a href="#" class="text-white">Twitter</a>
+          <a href="#" class="text-white">LinkedIn</a>
+          <!-- Puedes agregar más enlaces para otras redes sociales -->
+      </div>
+  </div>
+</footer>
+
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('tGgjRYjqMIqNEXa2_')
+</script>
+
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    // Texto que quieres que aparezca
+    const originalText = "Especialista en Ingenieria de Software con inteligencia artificial";
+
+    // Obtener el elemento donde se mostrará el texto
+    const typedTextElement = document.getElementById('typed-text');
+
+    // Iniciar la animación
+    animateText(originalText, typedTextElement);
+
+    // Función para animar el texto
+    function animateText(text, element) {
+        let index = 0;
+
+        function showNextLetter() {
+            if (index < text.length) {
+                // Agregar la letra actual al texto en el elemento
+                element.textContent += text.charAt(index);
+                index++;
+
+                // Programar la siguiente letra después de un breve retraso (puedes ajustar este valor)
+                setTimeout(showNextLetter, 100);
+            }
+        }
+
+        // Iniciar la animación después de un breve retraso (puedes ajustar este valor)
+        setTimeout(showNextLetter, 500);
+    }
+    //emails
+
+    const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_mwp303d';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Mensaje enviado corecctamente!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+    
+  </script>
+
+</body>
+</html>
